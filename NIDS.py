@@ -2,7 +2,7 @@ import time
 import warnings
 from collections import Counter
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import plot_confusion_matrix
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import StandardScaler
+# from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
 X = np.loadtxt('KDDTrain+.csv', delimiter=',', dtype='object')
 warnings.filterwarnings('ignore')
